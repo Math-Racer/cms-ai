@@ -24,8 +24,8 @@ logging.basicConfig(
 # api_base_url = "http://192.168.6.59:12345/api/v4/" # (zf 9)
 # api_base_url = "http://192.168.137.225:3000/api/v4/" # (zf 8)
 
-WEBSITE_LINK = os.getenv("WEBSITE_LINK", "http://host.docker.internal:3000/api/v4" )
-api_base_url = WEBSITE_LINK
+WEBSITE_LINK = os.getenv("API_BASE_URL", "http://host.docker.internal:3000/api/v4" )
+api_base_url = "http://172.16.1.72:12345/api/v4/"
 
 username = "api_client"
 password = "hellohello"
@@ -35,8 +35,8 @@ headers = {
     "Authorization": f"Basic {encoded_credentials}"
 }
 
-cid = os.getenv("CID", "1")
-# cid = "1"
+# cid = os.getenv("CID", "1")
+cid = "4"
 processed_submissions = set()
 
 def pollJudgements():

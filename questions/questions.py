@@ -1,6 +1,6 @@
 Question = dict()
 
-Question["2"] = """
+Question["5"] = """
 'Floating point compare text'
 Problem description:
 This program tests the special floating point compare script accompanying CMS.
@@ -31,7 +31,7 @@ inf
 NaN
 """
 
-Question["1"] = """
+Question["6"] = """
 Problem description:
 You are to write the most basic program; it should just output Hello world!” on a single line, no matter what the input.
 
@@ -42,7 +42,7 @@ Sample input/output:
  Hello world!
 """
 
-Question["3"] = """
+Question["4"] = """
 ‘Boolean switch search’
 Problem description:
 We have a very long array of boolean values, where the first value is known to be true and the last
@@ -72,4 +72,30 @@ Output
 READ 2
 READ 1
 OUTPUT 1
+"""
+
+Question["7"] = """
+Find the missing number in an array
+Problem description:
+Given an integer N and an array of size N-1 containing N-1 numbers between 1
+to N. Find the number(between 1 to N), that is not present in the given array.
+Sample input/output:
+The first line will be the size of the array N, and next N-1 lines will be the elements of the array.
+S.No.
+a)
+Input
+5
+1
+2
+4
+5
+Output
+3
+b)Input
+3
+3
+1
+3
+Output
+2
 """

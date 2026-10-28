@@ -5,6 +5,14 @@ This application enhances the DOMjudge competitive programming system by providi
 
 ---
 
+## **Demo**
+
+[![Contest Management System demo](https://img.youtube.com/vi/GC8YdsmTdfY/hqdefault.jpg)](https://www.youtube.com/watch?v=GC8YdsmTdfY)
+
+[Watch the Contest Management System demo on YouTube](https://www.youtube.com/watch?v=GC8YdsmTdfY)
+
+---
+
 ## **Features**
 
 - **Real-Time Feedback**: Continuously monitors DOMjudge for new submissions and provides feedback within seconds.
